@@ -1,0 +1,60 @@
+@charset "shift_jis";
+
+
+
+
+
+#navigate {
+	display:none;
+}
+
+#header_bg {
+	background:url(../i-images/header_bg.png)no-repeat,
+	 -webkit-gradient(
+	linear, left top, left bottom, 
+	from(#2352ff),
+	color-stop(0.50, #7b85ff),
+	color-stop(0.50, #7b85ff),
+	color-stop(0.69, #7b85ff),
+	to(#7b85ff));
+	background:url(../i-images/header_bg.png)no-repeat,
+	 -webkit-gradient(
+	linear, left top, left bottom, 
+	from(#2352ff),
+	to(#7b85ff));
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, .2);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, .2);
+	background-position:right center;
+}
+
+#header_bg h1 {
+	text-align: left;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#header_bg a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px;
+	display:block;
+}
+
+#header_bg p {
+	display:none;
+	line-height:16px;
+	font-size: 95%;
+	position: absolute;
+	top: 70px;
+	left: 35px;
+	right: 380px;
+}
+

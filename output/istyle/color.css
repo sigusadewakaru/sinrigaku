@@ -1,0 +1,64 @@
+@charset "shift_jis";
+
+
+
+
+a {
+	color: #;
+}
+
+a:hover {
+	color: #;
+	text-decoration: none;
+}
+
+#side a:hover img {
+	filter: Alpha(opacity=90);
+	opacity: 0.9; 
+}
+
+.red{
+	color: #ff0000;
+}
+
+.yellow{
+	color: #ffcc00;
+}
+
+.blue{
+	color: #0000ff;
+}
+
+.green{
+	color: #006600;
+}
+
+.orenge{
+	color: #ff6600;
+}
+
+.red_bg{
+	background: #ff0000;
+	color: #000000;
+}
+
+.yellow_bg{
+	background: #ffcc00;
+	color: #000000;
+}
+
+.blue_bg{
+	background: #0066ff;
+	color: #000000;
+}
+
+.green_bg{
+	background: #00cc00;
+	color: #000000;
+}
+
+.orenge_bg{
+	background: #ff6600;
+	color: #000000;
+}
+

@@ -1,0 +1,10 @@
+@charset "shift-jis";
+
+
+
+
+#main_contents_bg .cover {
+	position: absolute;
+	top: 0px;
+	left: -1px;
+}

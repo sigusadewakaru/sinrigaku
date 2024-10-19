@@ -1,0 +1,53 @@
+@charset "shift_jis";
+
+
+
+
+
+#header_bg {
+	background : #e8f3ff url(../images/header.gif);
+	background-repeat: repeat;
+	background-position: top center;
+	height: 165px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+#head_contents {
+	position: relative;
+	width: 900px;
+	background-image : url(../images/header_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#head_contents h1 {
+	position: absolute;
+	color: #333333;
+	font-size: 24px;
+	font-weight: normal;
+	top: 15px;
+	left: 25px;
+	border-bottom: 1px solid #cccccc;
+	padding: 0px 20px;	
+}
+
+#head_contents a {
+	color: #333333;
+	text-decoration: none;
+}
+
+#head_contents p {
+	color: #555555;
+	line-height:16px;
+	font-size: 12px;
+	position: absolute;
+	top: 55px;
+	left: 30px;
+	right: 400px;
+}
+
